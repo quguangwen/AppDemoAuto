@@ -92,6 +92,7 @@ public class MobileOperation {
                 System.out.println("开始切换混合应用视图");
                 driver.context(contextName);
                 System.out.println("切换WEBVIEW：" + driver.getContext());
+                break;
             }
         }
     }
